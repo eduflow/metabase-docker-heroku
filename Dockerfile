@@ -1,4 +1,4 @@
-FROM metabase/metabase:v0.45.3
+FROM metabase/metabase:v0.46.6.4
 # Heroku passes the port to bind to in the $PORT environment variable.
 # The Dockerfile `ENV`-command cannot be used since we don't know the $PORT at
 # build time.
